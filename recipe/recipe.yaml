@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   python_min: "3.12"
-  version: "2.6.1"
+  version: "2.7.0"
 
 package:
   name: pydeflate
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/p/pydeflate/pydeflate-${{ version }}.tar.gz
-  sha256: 3a2d87e69d0221139bad5d95ceca07d4728b4f974070063252b6ebbb287b1d86
+  sha256: 874ea993a64a1cfe08a6bc4b4e646fff248c88b3c8d83a499c53b52b9476d2f1
 
 build:
   number: 0
